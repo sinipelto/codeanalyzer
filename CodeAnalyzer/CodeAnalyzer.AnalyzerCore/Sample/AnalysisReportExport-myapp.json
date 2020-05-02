@@ -1,0 +1,125 @@
+{
+  "total": 3,
+  "p": 1,
+  "ps": 100,
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 100,
+    "total": 3
+  },
+  "effortTotal": 17,
+  "debtTotal": 17,
+  "issues": [
+    {
+      "key": "AXA5z6mmqTrVpWgg4Lpr",
+      "rule": "squid:S1170",
+      "severity": "MINOR",
+      "component": "com.mycompany.app:my-app:src/main/java/com/mycompany/app/App.java",
+      "project": "com.mycompany.app:my-app",
+      "line": 9,
+      "hash": "4c8d55dee3800fa2882a995d760b9942",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 25,
+        "endOffset": 32
+      },
+      "flows": [
+      ],
+      "status": "OPEN",
+      "message": "Make this final field static too.",
+      "effort": "2min",
+      "debt": "2min",
+      "tags": [
+        "convention"
+      ],
+      "creationDate": "2020-02-12T16:31:06+0200",
+      "updateDate": "2020-02-12T16:31:06+0200",
+      "type": "CODE_SMELL",
+      "organization": "default-organization",
+      "fromHotspot": false
+    },
+    {
+      "key": "AXA5z6mmqTrVpWgg4Lps",
+      "rule": "squid:S1186",
+      "severity": "CRITICAL",
+      "component": "com.mycompany.app:my-app:src/main/java/com/mycompany/app/App.java",
+      "project": "com.mycompany.app:my-app",
+      "line": 11,
+      "hash": "fe90a730fa35b72e5b7729bf420c398e",
+      "textRange": {
+        "startLine": 11,
+        "endLine": 11,
+        "startOffset": 11,
+        "endOffset": 14
+      },
+      "flows": [
+      ],
+      "status": "OPEN",
+      "message": "Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "suspicious"
+      ],
+      "creationDate": "2020-02-12T16:31:06+0200",
+      "updateDate": "2020-02-12T16:31:06+0200",
+      "type": "CODE_SMELL",
+      "organization": "default-organization",
+      "fromHotspot": false
+    },
+    {
+      "key": "AXA5z6mmqTrVpWgg4Lpt",
+      "rule": "squid:S106",
+      "severity": "MAJOR",
+      "component": "com.mycompany.app:my-app:src/main/java/com/mycompany/app/App.java",
+      "project": "com.mycompany.app:my-app",
+      "line": 14,
+      "hash": "21352be2c621b8452bc7e32d2dfdd58e",
+      "textRange": {
+        "startLine": 14,
+        "endLine": 14,
+        "startOffset": 8,
+        "endOffset": 18
+      },
+      "flows": [
+      ],
+      "status": "OPEN",
+      "message": "Replace this use of System.out or System.err by a logger.",
+      "effort": "10min",
+      "debt": "10min",
+      "tags": [
+        "bad-practice",
+        "cert"
+      ],
+      "creationDate": "2020-02-12T16:31:06+0200",
+      "updateDate": "2020-02-12T16:31:06+0200",
+      "type": "CODE_SMELL",
+      "organization": "default-organization",
+      "fromHotspot": false
+    }
+  ],
+  "components": [
+    {
+      "organization": "default-organization",
+      "key": "com.mycompany.app:my-app",
+      "uuid": "AXA5z5YOaPmqgZandbST",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "my-app",
+      "longName": "my-app"
+    },
+    {
+      "organization": "default-organization",
+      "key": "com.mycompany.app:my-app:src/main/java/com/mycompany/app/App.java",
+      "uuid": "AXA5z6L_qTrVpWgg4Lpl",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "App.java",
+      "longName": "src/main/java/com/mycompany/app/App.java",
+      "path": "src/main/java/com/mycompany/app/App.java"
+    }
+  ],
+  "facets": [
+  ]
+}
